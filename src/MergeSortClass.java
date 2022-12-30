@@ -40,6 +40,7 @@ public class MergeSortClass {
             return arr;
         }
 
+        // делим исходный массив на 2 подмассива пополам
         int[] left = new int[arr.length / 2];
         int[] right = new int[arr.length - arr.length / 2];
         System.arraycopy(arr, 0, left, 0, arr.length / 2);
